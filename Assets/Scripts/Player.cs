@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("1234512345");
         if (Input.GetKey(KeyCode.LeftShift))
         {
             acceleration += accelerationRate;
