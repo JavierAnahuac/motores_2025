@@ -6,11 +6,17 @@ public class Player : MonoBehaviour
     public float maxAcceleration = 3f;
     public float accelerationRate = 0.025f;
     public float decelerationRate = 0.05f;
+    public float fdafd;
 
     private float acceleration = 1f;
 
     void Update()
     {
+
+        Debug.Log("12342134");
+        Debug.Log("12342134");
+        Debug.Log("12342134");
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             acceleration += accelerationRate;
